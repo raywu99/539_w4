@@ -68,6 +68,6 @@ body{
 }
 
 img:last-of-type {
-   grid-column: 1 / 3; 
+   grid-column: span 3; 
 }
 

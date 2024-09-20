@@ -59,14 +59,15 @@ body{
    width: 90%;
    grid-gap: 20px;
    justify-content: center;
-   align-items: stretch;
 }
 
 .gallery img {
+   object-fit: fill;
+   height: 100%;
    width: 100%;
 }
 
 img:last-of-type {
-   grid-column: span 3; 
+   grid-column: 1 / 3; 
 }
 
